@@ -1,5 +1,5 @@
 # Private-Public-IP-Proxy-Tool
-This script displays the System IP, Proxy & Public IP as output. I found this to be useful in many occassions where users struggle to open command prompt, run command or copy/ paste contents.
+This script displays the System IP, Proxy & Public IP as output. I found this to be useful in many occassions where users struggle to open command prompt, run command or copy/ paste content. This saves lot of troubleshooting time & helps avoiding user frustration.
 
 Below is a sample output -
 
