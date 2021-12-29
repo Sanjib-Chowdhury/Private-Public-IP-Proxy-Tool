@@ -12,6 +12,7 @@ Below is a sample output -
 System IP address:
 
    IPv4 Address. . . . . . . . . . . : 10.0.0.2
+   
    IPv4 Address. . . . . . . . . . . : 192.168.0.2
 
 
