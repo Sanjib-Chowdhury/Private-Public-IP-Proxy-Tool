@@ -22,6 +22,6 @@ ProxyServer
 testproxy.net:80
 
 
-Public IP: 146.162.241.247
+Public IP: 29.12.24.24
 ***************************
 Report bug to sanjib_25@yahoo.com
