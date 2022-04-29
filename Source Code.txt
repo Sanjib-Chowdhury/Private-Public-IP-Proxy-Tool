@@ -1,0 +1,15 @@
+Echo "**************************************************************" > out.txt
+echo "*         System IP, Proxy & Public IP Finder                *" >> out.txt
+echo "*          Report bug to sanjib_25@yahoo.com                 *" >> out.txt
+echo "*  Visit https://github.com/Sanjib-Chowdhury for more tools  *" >> out.txt
+Echo "**************************************************************" >> out.txt
+date >> out.txt
+Echo *************************************************************** >> out.txt
+echo "System IP address:" >> out.txt
+ipconfig | Select-String "IPv4" >> out.txt
+Get-ItemProperty -Path "Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" | select-object ProxyServer >> out.txt
+$IP = curl http://whatismyip.akamai.com | Select-String -Pattern "."
+echo "Public IP: $IP" >> out.txt
+Echo ""
+Echo *************************************************************** >> out.txt
+notepad out.txt
